@@ -17,6 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/grid', function () {
+    return view('grid');
+});
+
+
+Route::get('/buttons', function () {
+    return view('buttons');
+});
+
 Route::get('/images', function () {
     return view('images');
 });
